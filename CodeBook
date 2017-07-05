@@ -93,3 +93,26 @@ WALKING_DOWNSTAIRS (value 3): subject was walking down a staircase during the te
 SITTING (value 4): subject was sitting during the test
 STANDING (value 5): subject was standing during the test
 LAYING (value 6): subject was laying down during the test
+
+Variables Used in my script
+
+ x_test  - Values of all variables
+ y_test - Activity ids of test data
+ subject_test - Subject ids of all testing set observations
+ x_train - Values of all variables, training set
+ y_train - Activity ids of all training data
+ subject_train - subject ids of all training set observations
+ features - List of all variables name in the second column 
+ Activites - Name of the activities
+ train_final - Combined y_train,subject_train and x_train data
+ test_final - combined y_test,subject_test and y_train data
+ all_data - combined testing and traning data
+ reqcols - Names of required columns viz. all columns with mean and standard deviations values, activity_id and subject_id
+ sub_all_data - subset of all_data with required columns
+ data1 - dataset with mean values of all the variables in sub_all_data aggregated by activity_id and subject_id
+ tidy - tidy data with descritive name of activity ids
+
+
+
+ 
+ 
